@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="insertion_section">
+        <h2>Add Book</h2>
+        <input type="text" id="bookName" placeholder="Book Name">
+        <input type="text" id="authorName" placeholder="Author">
+        <input type="text" id="publisherName" placeholder="Publisher">
+        <input type="number" id="numberPage" placeholder="Number of Pages">
+        <input type="number" id="serialNumber" placeholder="Serial Number">
+        <button id="add">ADD</button>
+    </div>
+
+    <div id="book_list">
+        <h2>Book List</h2>
+        <table id="tabs">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Pages</th>
+                    <th>Serial</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

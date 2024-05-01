@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#insertion_section, #book_list {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#book_list {
+    margin-top: 50px;
+}
+
+#book_list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#book_list th, #book_list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#book_list th {
+    background-color: #f2f2f2;
+}
