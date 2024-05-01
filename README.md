@@ -1,0 +1,2 @@
+Script.js  Bu kod, kitapları yerel depolama (localStorage) kullanarak saklar ve sayfa yenilendiğinde bile kitapların kaybolmamasını sağlar. Kitaplar eklenir ve silinirken, localStorage otomatik olarak güncellenir.
+basit bir kütüphane sistemi oluşturur. "Add Book" düğmesine tıkladığınızda, girilen kitap bilgileri tabloya eklenir. Ayrıca, her satırın sonunda "Remove" düğmesi bulunur ve bu düğmeye tıkladığınızda ilgili satır silinir.
